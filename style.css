@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;400;600&family=Yeseva+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+
+.header-content {
+  color: #fff;
+  text-align: center;
+  background: #7370fd;
+  padding: 20px 0;
+}
+
+.image-section {
+  display: table;
+}
+.image {
+  display: table-cell;
+  vertical-align: middle;
+  width: 500px;
+  height: 350px;
+}
+.image h1 {
+  text-align: center;
+}
+.img1 {
+  background: #66b9aa;
+}
+.img2 {
+  background: #43ad9a;
+}
+.img3 {
+  background: #37a28e;
+}
+.img4 {
+  background: #28917e;
+}
+
+footer {
+  color: #fff;
+  background: #505050;
+  text-align: center;
+  /* height: 100px; */
+  width: 100%;
+  height: 100px;
+  display: table;
+}
+
+footer h1 {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.hero {
+  background: #7bff98;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar {
+  background: #ddff7b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-sidebar {
+  display: grid;
+  grid-template-rows: 250px 210px;
+}
+.body-extra{
+  display: grid;
+  grid-template-rows: 340px 120px;
+}
+.body {
+  background: #2079ff;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.extra-content {
+  color: #fff;
+  background: #ff202d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width:1000px) and (max-width: 1400px) {
+  .image{
+   height: 250px;
+  }
+}
+
+
+
